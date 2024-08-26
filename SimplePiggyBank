@@ -1,0 +1,13 @@
+public class SimplePiggyBank
+{
+  public static void main(String[] args)
+  {
+    int lotsofpennies = 6969;
+    int dollars = lotsofpennies / 100;
+    int cents = lotsofpennies % 100;
+    System.out.print("Dollars: ");
+    System.out.println(dollars);
+    System.out.print("Cents: ");
+    System.out.println(cents);
+  }
+}
